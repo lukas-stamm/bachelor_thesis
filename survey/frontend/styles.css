@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .card {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .response {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 25%;
+    height: 75px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 35px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #80669d;
+    width: 250px;
+    height: 100px;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    
+  }
+  
+  .button.ai {
+    width: 300px;
+    height: 120px;
+    font-weight: 900;
+    margin-right: 20px;
+    font-size: 35px;
+    }
+  
+  .button.not-ai {
+    width: 300px;
+    height: 120px;
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: 35px;
+  }
+  
+  .image {
+    height: 750px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  }
+  
+  .ergebnis-tabelle {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .ergebnis-tabelle th,
+  .ergebnis-tabelle td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .ergebnis-tabelle th {
+    background-color: #f9f9f9;
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+  .lightbox img {
+    width: 750px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .lightbox.hidden {
+    display: none;
+  }
