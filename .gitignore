@@ -1,4 +1,6 @@
 venv/
 data/
 subsets/
+survey/
+model_dev/
 DeepGuardDB_v1 (1).zip
